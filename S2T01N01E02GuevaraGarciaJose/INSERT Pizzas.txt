@@ -1,0 +1,100 @@
+Pizzeria:
+
+
+INSERT INTO categorias (nombre) 
+VALUES ('Pizza individual');
+
+INSERT INTO categorias (nombre) 
+VALUES ('Pizza Mediana');
+
+INSERT INTO categorias (nombre) 
+VALUES ('Pizza Grande');
+
+INSERT INTO categorias (nombre) 
+VALUES ('Pizza Doble Queso');
+
+INSERT INTO categorias (nombre) 
+VALUES ('Bebidas');
+
+INSERT INTO clientes (nombreCliente,apellidosCliente,direccion,codigopostal,localidad,provincia,telefono) 
+VALUES ('Joan','Moreira Ramos','Paseo Fabra I Puig 52, 2,3',08016,'Barcelona','Catalunya',670000050);
+
+INSERT INTO clientes (nombreCliente,apellidosCliente,direccion,codigopostal,localidad,provincia,telefono) 
+VALUES ('Helen','Ramos Sauz','Mallorca, 1,3',08016,'Barcelona','Catalunya',670000050);
+
+INSERT INTO clientes (nombreCliente,apellidosCliente,direccion,codigopostal,localidad,provincia,telefono) 
+VALUES ('Luis','Peréz Sort','Entenca, 6,4',08016,'Barcelona','Catalunya',670000051);
+
+INSERT INTO clientes (nombreCliente,apellidosCliente,direccion,codigopostal,localidad,provincia,telefono) 
+VALUES ('Thomas','Ron Ray','Av catalunya 62, 6,4',08001,'Sant Cugat del Vallès','Catalunya',670000052);
+
+INSERT INTO clientes (nombreCliente,apellidosCliente,direccion,codigopostal,localidad,provincia,telefono) 
+VALUES ('Michael','Fernandez Robert','Av catalunya 61, 6,4',08001,'Sant Cugat del Vallès','Catalunya',670000053);
+
+
+
+INSERT INTO empleados (nombre,apellidos,nif,telefono,categoriaEmpleado) 
+VALUES ('Elena','Mont Man','26611111A',613000000,'Dependienta');
+
+INSERT INTO empleados (nombre,apellidos,nif,telefono,categoriaEmpleado) 
+VALUES ('Saul','Iris Bro','26611111B',613000001,'Cocinero');
+
+INSERT INTO empleados (nombre,apellidos,nif,telefono,categoriaEmpleado) 
+VALUES ('Manuel','Montalvo Calvillo','26611111C',613000002,'Repartidor');
+
+INSERT INTO empleados (nombre,apellidos,nif,telefono,categoriaEmpleado) 
+VALUES ('Victor','Peralvillo Calvet','26611111D',613000003,'Repartidor');
+
+INSERT INTO empleados (nombre,apellidos,nif,telefono,categoriaEmpleado) 
+VALUES ('Gustavo','Ponce Mal','26611111E',613000004,'Repartidor');
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 19:00:00','SI','NO',1,2,20.50,1,'2023-03-25 19:23:00',1);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 15:00:00','SI','NO',1,1,30.50,3,'2023-03-25 15:23:00',2);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 14:00:00','SI','NO',3,3,32,3,'2023-03-25 15:23:00',2);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 13:00:00','SI','NO',3,4,32,3,'2023-03-25 13:23:00',2);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 13:00:00','SI','NO',1,1,32,4,'2023-03-25 13:23:00',2);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 13:00:00','SI','NO',1,1,32,4,'2023-03-25 13:23:00',2);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 13:00:00','NO','SI',1,5,15.50,4,'2023-03-25 13:23:00',4);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-26 13:00:00','NO','SI',1,5,15.50,4,'2023-03-26 13:23:00',4);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-27 13:00:00','NO','SI',1,5,15.50,4,'2023-03-27 13:23:00',4);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-29 13:00:00','NO','SI',1,5,10.50,4,'2023-03-29 13:23:00',5);
+
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-30 13:00:00','NO','SI',1,5,10.50,4,'2023-03-30 13:23:00',1);
+
+INSERT INTO productos (nombre,descripcion,imagen,precio) 
+VALUES ('Pizza','Hawaina','c:\imagen\pizzaH',7);
+
+INSERT INTO productos (nombre,descripcion,imagen,precio) 
+VALUES ('Pizza','4 Quesos','c:\imagen\pizza4',8);
+
+INSERT INTO productos (nombre,descripcion,imagen,precio) 
+VALUES ('Pizza','Marinera','c:\imagen\pizzaM',7);
+
+INSERT INTO productos (nombre,descripcion,imagen,precio) 
+VALUES ('Bebida','Agua','c:\imagen\pizzaA',1);
+
+INSERT INTO productos (nombre,descripcion,imagen,precio) 
+VALUES ('Bebida','Cerveza','c:\imagen\bebidaC',3.50);
+
+
+

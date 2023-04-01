@@ -1,0 +1,59 @@
+CREATE TABLE `categorias` (
+  `idcategorias` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) NOT NULL,
+  PRIMARY KEY (`idcategorias`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `clientes` (
+  `idclientes` int NOT NULL AUTO_INCREMENT,
+  `nombreCliente` varchar(25) NOT NULL,
+  `apellidosCliente` varchar(45) NOT NULL,
+  `direccion` varchar(45) NOT NULL,
+  `codigopostal` int NOT NULL,
+  `localidad` varchar(35) NOT NULL,
+  `provincia` varchar(30) NOT NULL,
+  `telefono` int NOT NULL,
+  PRIMARY KEY (`idclientes`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `empleados` (
+  `idempleados` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(25) NOT NULL,
+  `apellidos` varchar(45) NOT NULL,
+  `nif` varchar(9) NOT NULL,
+  `telefono` int NOT NULL,
+  `categoriaEmpleado` varchar(25) NOT NULL,
+  PRIMARY KEY (`idempleados`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `pedidos` (
+  `idpedidos` int NOT NULL AUTO_INCREMENT,
+  `fechaPedido` datetime NOT NULL,
+  `entregaDomicilio` varchar(2) NOT NULL,
+  `entregaTienda` varchar(2) NOT NULL,
+  `cantidadProductos` int NOT NULL,
+  `categoriaProducto` set('1','2','3','4','5') DEFAULT NULL,
+  `precioTotal` decimal(11,2) NOT NULL,
+  `idempleado` int NOT NULL,
+  `fechaEntrega` datetime NOT NULL,
+  `idCliente` int NOT NULL,
+  PRIMARY KEY (`idpedidos`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `productos` (
+  `idproductos` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) NOT NULL,
+  `descripcion` varchar(45) NOT NULL,
+  `imagen` varchar(35) NOT NULL,
+  `precio` decimal(11,2) NOT NULL,
+  PRIMARY KEY (`idproductos`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `restaurant` (
+  `idpizzeria` int NOT NULL,
+  `direccion` varchar(45) NOT NULL,
+  `codigoPostal` int NOT NULL,
+  `localidad` varchar(25) NOT NULL,
+  `provincia` varchar(25) NOT NULL,
+  PRIMARY KEY (`idpizzeria`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

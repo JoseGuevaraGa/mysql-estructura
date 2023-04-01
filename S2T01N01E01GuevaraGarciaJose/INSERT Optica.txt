@@ -1,0 +1,30 @@
+INSERT INTO clientes (nombre, direccion, telefono,email,fechaAlta,clienteRecomienda) 
+VALUES ('Saul Rodriguez Salamanca','Av Diagonal 700, 5,2',600021122,'saulrodrisala@gmail.com','2023-03-25 22:23:00','Antonio Medina');
+
+INSERT INTO proveidor (nombre, direccion, telefono,fax,nif) 
+VALUES ('Elite enterprises','Aragon 40, 1,2',600021666,91122266,'11122266B');
+
+INSERT INTO ulleres (idproveidor, marca, graduacion,montura,colormontura,precio,colorvidrio) 
+VALUES (2,'Polaroid',0.1,'Pasta','Rojo',110,'Claros');
+
+INSERT INTO ventas (idulleres,idproveidor,idclientes, precio, vendedor,fechaVenta) 
+VALUES (2,1,1,50,'Joseph Gerente','2023-03-26 22:23:00');
+
+INSERT INTO ventas (idulleres,idproveidor,idclientes, precio, vendedor,fechaVenta) 
+VALUES (3,1,1,50,'Joseph Gerente','2023-03-22 22:23:00');
+
+INSERT INTO ventas (idulleres,idproveidor,idclientes, precio, vendedor,fechaVenta) 
+VALUES (3,1,1,50,'Joseph Gerente','2023-03-23 22:23:00');
+
+INSERT INTO ventas (idulleres,idproveidor,idclientes, precio, vendedor,fechaVenta) 
+VALUES (1,2,1,50,'Joseph Gerente','2023-03-28 22:23:00');
+
+INSERT INTO ventas (idulleres,idproveidor,idclientes, precio, vendedor,fechaVenta) 
+VALUES (3,1,2,60,'Joseph Gerente','2023-03-23 22:23:00');
+
+INSERT INTO ventas (idulleres,idproveidor,idclientes, precio, vendedor,fechaVenta) 
+VALUES (1,2,3,60,'Joseph Gerente','2023-03-28 22:23:00');
+
+
+
+

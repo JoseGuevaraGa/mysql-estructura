@@ -48,38 +48,38 @@ VALUES ('Victor','Peralvillo Calvet','26611111D',613000003,'Repartidor');
 INSERT INTO empleados (nombre,apellidos,nif,telefono,categoriaEmpleado) 
 VALUES ('Gustavo','Ponce Mal','26611111E',613000004,'Repartidor');
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-25 19:00:00','SI','NO',1,2,20.50,1,'2023-03-25 19:23:00',1);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 19:00:00','SI','NO',1,'2023-03-25 19:23:00',1);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-25 15:00:00','SI','NO',1,1,30.50,3,'2023-03-25 15:23:00',2);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 15:00:00','SI','NO',3,'2023-03-25 15:23:00',2);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-25 14:00:00','SI','NO',3,3,32,3,'2023-03-25 15:23:00',2);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 14:00:00','SI','NO',3,'2023-03-25 15:23:00',2);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-25 13:00:00','SI','NO',3,4,32,3,'2023-03-25 13:23:00',2);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 13:00:00','SI','NO',3,'2023-03-25 13:23:00',2);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-25 13:00:00','SI','NO',1,1,32,4,'2023-03-25 13:23:00',2);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 13:00:00','SI','NO',4,'2023-03-25 13:23:00',2);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-25 13:00:00','SI','NO',1,1,32,4,'2023-03-25 13:23:00',2);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 13:00:00','SI','NO',4,'2023-03-25 13:23:00',2);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-25 13:00:00','NO','SI',1,5,15.50,4,'2023-03-25 13:23:00',4);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-25 13:00:00','NO','SI',4,'2023-03-25 13:23:00',4);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-26 13:00:00','NO','SI',1,5,15.50,4,'2023-03-26 13:23:00',4);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-26 13:00:00','NO','SI',4,'2023-03-26 13:23:00',4);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-27 13:00:00','NO','SI',1,5,15.50,4,'2023-03-27 13:23:00',4);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-27 13:00:00','NO','SI',4,'2023-03-27 13:23:00',4);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-29 13:00:00','NO','SI',1,5,10.50,4,'2023-03-29 13:23:00',5);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-29 13:00:00','NO','SI',4,'2023-03-29 13:23:00',5);
 
-INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,cantidadProductos,categoriaProducto,precioTotal,idempleado,fechaEntrega,idCliente) 
-VALUES ('2023-03-30 13:00:00','NO','SI',1,5,10.50,4,'2023-03-30 13:23:00',1);
+INSERT INTO pedidos (fechaPedido,entregaDomicilio,entregaTienda,idempleado,fechaEntrega,idCliente) 
+VALUES ('2023-03-30 13:00:00','NO','SI',4,'2023-03-30 13:23:00',1);
 
 INSERT INTO productos (nombre,descripcion,imagen,precio) 
 VALUES ('Pizza','Hawaina','c:\imagen\pizzaH',7);
@@ -96,5 +96,34 @@ VALUES ('Bebida','Agua','c:\imagen\pizzaA',1);
 INSERT INTO productos (nombre,descripcion,imagen,precio) 
 VALUES ('Bebida','Cerveza','c:\imagen\bebidaC',3.50);
 
-
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (1,1,1);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (2,2,2);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (3,2,3);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (4,4,4);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (5,3,5);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (6,1,6);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (7,2,7);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (8,4,1);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (9,3,2);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (10,2,3);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (11,2,4);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (12,2,5);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (13,2,6);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (14,2,7);
+INSERT INTO linea_pedidos (id_pedido,cantidad_productos,id_productos) 
+VALUES (15,1,3);
 

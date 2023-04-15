@@ -25,6 +25,15 @@ VALUES (3,1,2,60,'Joseph Gerente','2023-03-23 22:23:00');
 INSERT INTO ventas (idulleres,idproveidor,idclientes, precio, vendedor,fechaVenta) 
 VALUES (1,2,3,60,'Joseph Gerente','2023-03-28 22:23:00');
 
+INSERT INTO marcas (nombre, precio,id_proveidor,id_ulleres) 
+VALUES ('Ray Ban',60,1,1);
+
+INSERT INTO marcas (nombre, precio,id_proveidor,id_ulleres) 
+VALUES ('Lacoste',50,1,2);
+
+INSERT INTO marcas (nombre, precio,id_proveidor,id_ulleres) 
+VALUES ('Polaroid',110,2,3);
+
 
 
 

@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "643c1533e4b6a9c3db1379b0"
+  },
+  "nombre": "Joan",
+  "apellidos": "Moreira Ramos",
+  "direccion": "Paseo Fabra I Puig 52, 2,3",
+  "codigopostal": "08016",
+  "id_localidad": "1",
+  "id_provincia": "1",
+  "telefono": "670000050"
+},{
+  "_id": {
+    "$oid": "643c1533e4b6a9c3db1379b1"
+  },
+  "nombre": "Helen",
+  "apellidos": "Ramos Sauz",
+  "direccion": "Mallorca, 1,3",
+  "codigopostal": "08016",
+  "id_localidad": "1",
+  "id_provincia": "1",
+  "telefono": "670000051"
+},{
+  "_id": {
+    "$oid": "643c1533e4b6a9c3db1379b2"
+  },
+  "nombre": "Luis",
+  "apellidos": "Peréz Sort",
+  "direccion": "Entenca, 6,4",
+  "codigopostal": "08016",
+  "id_localidad": "1",
+  "id_provincia": "1",
+  "telefono": "670000052"
+},{
+  "_id": {
+    "$oid": "643c1533e4b6a9c3db1379b3"
+  },
+  "nombre": "Thomas",
+  "apellidos": "Ron Ray",
+  "direccion": "Av catalunya 62, 6,4",
+  "codigopostal": "08001",
+  "id_localidad": "2",
+  "id_provincia": "1",
+  "telefono": "670000053"
+},{
+  "_id": {
+    "$oid": "643c1533e4b6a9c3db1379b4"
+  },
+  "nombre": "Michael",
+  "apellidos": "Fernandez Robert",
+  "direccion": "Av catalunya 61, 6,4",
+  "codigopostal": "08001",
+  "id_localidad": "2",
+  "id_provincia": "1",
+  "telefono": "670000054"
+}]

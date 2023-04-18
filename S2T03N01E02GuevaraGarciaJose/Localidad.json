@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "643d16d7e4b6a9c3db1379bd"
+  },
+  "id_localidad": "1",
+  "nombre": "Abrera"
+},{
+  "_id": {
+    "$oid": "643d16d7e4b6a9c3db1379be"
+  },
+  "id_localidad": "2",
+  "nombre": "Aiguafreda"
+},{
+  "_id": {
+    "$oid": "643d16d7e4b6a9c3db1379bf"
+  },
+  "id_localidad": "3",
+  "nombre": "Barcelona"
+}]

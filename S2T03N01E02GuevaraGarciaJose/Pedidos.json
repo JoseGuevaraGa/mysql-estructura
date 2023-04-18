@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "643d1a07e4b6a9c3db1379c2"
+  },
+  "fechaPedido": "2023-04-17 11:00:00",
+  "entregaDomicilio": "SI",
+  "entregaTienda": "NO",
+  "id_empleado": "1",
+  "fechaEntrega": "2023-04-17 12:00:00",
+  "id_cliente": "1"
+},{
+  "_id": {
+    "$oid": "643d1a07e4b6a9c3db1379c3"
+  },
+  "fechaPedido": "2023-04-17 13:00:00",
+  "entregaDomicilio": "NO",
+  "entregaTienda": "SI",
+  "id_empleado": "2",
+  "fechaEntrega": "2023-04-17 14:00:00",
+  "id_cliente": "1"
+},{
+  "_id": {
+    "$oid": "643d1a07e4b6a9c3db1379c4"
+  },
+  "fechaPedido": "2023-04-17 14:00:00",
+  "entregaDomicilio": "NO",
+  "entregaTienda": "SI",
+  "id_empleado": "3",
+  "fechaEntrega": "2023-04-17 15:00:00",
+  "id_cliente": "2"
+}]

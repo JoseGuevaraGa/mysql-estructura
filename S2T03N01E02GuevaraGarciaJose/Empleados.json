@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "643d23e9e4b6a9c3db1379ce"
+  },
+  "nombre": "Elena",
+  "apellidos": "Mont Man",
+  "nif": "26611111A",
+  "telefono": "613000000",
+  "categoriaEmpleado": "Dependienta"
+},{
+  "_id": {
+    "$oid": "643d23e9e4b6a9c3db1379cf"
+  },
+  "nombre": "Manuel",
+  "apellidos": "Montalvo Calvillo",
+  "nif": "26611111C",
+  "telefono": "613000002",
+  "categoriaEmpleado": "Repartidor"
+},{
+  "_id": {
+    "$oid": "643d23e9e4b6a9c3db1379d0"
+  },
+  "nombre": "Victor",
+  "apellidos": "Peralvillo Calvet",
+  "nif": "26611111D",
+  "telefono": "613000003",
+  "categoriaEmpleado": "Repartidor"
+},{
+  "_id": {
+    "$oid": "643d23e9e4b6a9c3db1379d1"
+  },
+  "nombre": "Gustavo",
+  "apellidos": "Ponce Mal",
+  "nif": "26611111E",
+  "telefono": "613000004",
+  "categoriaEmpleado": "Repartidor"
+}]

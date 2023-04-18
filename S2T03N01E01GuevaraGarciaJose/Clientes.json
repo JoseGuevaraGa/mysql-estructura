@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "643c033fe4b6a9c3db137994"
+  },
+  "nombre": "Saul Rodriguez Salamanca",
+  "direccion": "Av Diagonal 700, 5,2",
+  "telefono": "600021122",
+  "email": "saulrodrisala@gmail.com",
+  "fechaAlta": "2023-03-25",
+  "clienteRecomienda": "Antonio Medina",
+  "id_empleado": "1"
+},{
+  "_id": {
+    "$oid": "643c033fe4b6a9c3db137995"
+  },
+  "nombre": "Raúl Rodriguez Salamanca",
+  "direccion": "Av Diagonal 100, 4,2",
+  "telefono": "600021123",
+  "email": "raulrodrisala@gmail.com",
+  "fechaAlta": "2023-04-15",
+  "clienteRecomienda": "Antonio Medina",
+  "id_empleado": "2"
+},{
+  "_id": {
+    "$oid": "643c033fe4b6a9c3db137996"
+  },
+  "nombre": "Antonio Medina Salamanca",
+  "direccion": "Av Diagonal 200, 1,2",
+  "telefono": "600021123",
+  "email": "antoniomedina@gmail.com",
+  "fechaAlta": "2023-04-12",
+  "clienteRecomienda": "Raúl Rodriguez",
+  "id_empleado": "3"
+},{
+  "_id": {
+    "$oid": "643c033fe4b6a9c3db137997"
+  },
+  "nombre": "Cristian Sanz Salamanca",
+  "direccion": "Av Diagonal 01,6,2",
+  "telefono": "600021124",
+  "email": "cristinaS@gmail.com",
+  "fechaAlta": "2023-04-11",
+  "clienteRecomienda": "Raúl Rodriguez",
+  "id_empleado": "2"
+}]

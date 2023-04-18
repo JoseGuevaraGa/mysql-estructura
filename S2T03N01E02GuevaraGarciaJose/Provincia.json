@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "643d1632e4b6a9c3db1379b8"
+  },
+  "id_provincia": "1",
+  "nombre": "Barcelona"
+},{
+  "_id": {
+    "$oid": "643d1632e4b6a9c3db1379b9"
+  },
+  "id_provincia": "2",
+  "nombre": "Girona"
+},{
+  "_id": {
+    "$oid": "643d1632e4b6a9c3db1379ba"
+  },
+  "id_provincia": "3",
+  "nombre": "Lleida"
+}]

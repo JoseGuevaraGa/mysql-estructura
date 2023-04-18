@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "643ae70be4b6a9c3db137988"
+  },
+  "nombre": "Saul Rodriguez Salamanca",
+  "direccion": "Av Diagonal 700, 5,2",
+  "telefono": "600021122",
+  "fax": "977000001",
+  "nif": "26610111A"
+},{
+  "_id": {
+    "$oid": "643ae70be4b6a9c3db137989"
+  },
+  "nombre": "Elite enterprises",
+  "direccion": "Aragon 40, 1,2",
+  "telefono": "600021666",
+  "fax": "977000002",
+  "nif": "26610222B"
+}]

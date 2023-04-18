@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "643c05ade4b6a9c3db13799a"
+  },
+  "nombre": "Polaroid",
+  "precio": "110"
+},{
+  "_id": {
+    "$oid": "643c05ade4b6a9c3db13799b"
+  },
+  "nombre": "Ray Ban",
+  "precio": "110"
+},{
+  "_id": {
+    "$oid": "643c05ade4b6a9c3db13799c"
+  },
+  "nombre": "Lacoste",
+  "precio": "110"
+},{
+  "_id": {
+    "$oid": "643c0681e4b6a9c3db13799e"
+  },
+  "nombre": "Olive",
+  "precio": "150"
+}]

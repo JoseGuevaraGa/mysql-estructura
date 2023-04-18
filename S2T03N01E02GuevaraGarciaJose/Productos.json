@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "643d212ce4b6a9c3db1379c7"
+  },
+  "nombre": "Pizza",
+  "descripcion": "Hawaina",
+  "imagen": "imagen",
+  "precio": "7"
+},{
+  "_id": {
+    "$oid": "643d212ce4b6a9c3db1379c8"
+  },
+  "nombre": "Pizza",
+  "descripcion": "4 Quesos",
+  "imagen": "imagenpizza4",
+  "precio": "8"
+},{
+  "_id": {
+    "$oid": "643d212ce4b6a9c3db1379c9"
+  },
+  "nombre": "Pizza",
+  "descripcion": "Marinera",
+  "imagen": "imagenpizzaM",
+  "precio": "7"
+},{
+  "_id": {
+    "$oid": "643d212ce4b6a9c3db1379ca"
+  },
+  "nombre": "Bebida",
+  "descripcion": "Agua",
+  "imagen": "imagenpizzaA",
+  "precio": "1"
+},{
+  "_id": {
+    "$oid": "643d212ce4b6a9c3db1379cb"
+  },
+  "nombre": "Bebida",
+  "descripcion": "Cerveza",
+  "imagen": "imagenebebidaC",
+  "precio": "3.50"
+}]

@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "643c091ce4b6a9c3db1379a2"
+  },
+  "Precio": "100",
+  "vendedor": "Julio Martinez",
+  "fecha_venta": "2023-04-11"
+},{
+  "_id": {
+    "$oid": "643c091ce4b6a9c3db1379a3"
+  },
+  "Precio": "150",
+  "vendedor": "Julio Martinez",
+  "fecha_venta": "2023-04-11"
+},{
+  "_id": {
+    "$oid": "643c091ce4b6a9c3db1379a4"
+  },
+  "Precio": "130",
+  "vendedor": "Miguel Muñoz",
+  "fecha_venta": "2023-04-10"
+},{
+  "_id": {
+    "$oid": "643c091ce4b6a9c3db1379a5"
+  },
+  "Precio": "110",
+  "vendedor": "Miguel Muñoz",
+  "fecha_venta": "2023-04-14"
+}]

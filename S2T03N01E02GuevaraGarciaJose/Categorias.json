@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "643c0f88e4b6a9c3db1379a9"
+  },
+  "nombre": "Pizza individual"
+},{
+  "_id": {
+    "$oid": "643c0f88e4b6a9c3db1379aa"
+  },
+  "nombre": "Pizza Mediana"
+},{
+  "_id": {
+    "$oid": "643c0f88e4b6a9c3db1379ab"
+  },
+  "nombre": "Pizza Grande"
+},{
+  "_id": {
+    "$oid": "643c0f88e4b6a9c3db1379ac"
+  },
+  "nombre": "Pizza Doble Queso"
+},{
+  "_id": {
+    "$oid": "643c0f88e4b6a9c3db1379ad"
+  },
+  "nombre": "Bebidas"
+}]

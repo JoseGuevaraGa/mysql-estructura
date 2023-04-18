@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "643bbc2de4b6a9c3db13798e"
+  },
+  "idproveidor": "1",
+  "marca": "Polaroid",
+  "graduacion": "0.1",
+  "montura": "Pasta",
+  "colormontura": "Rojo",
+  "colorvidrio": "Claros",
+  "precio": "110"
+},{
+  "_id": {
+    "$oid": "643bbc2de4b6a9c3db13798f"
+  },
+  "idproveidor": "2",
+  "marca": "Ray Ban",
+  "graduacion": "0.4",
+  "montura": "Flotant",
+  "colormontura": "Azul",
+  "colorvidrio": "Claros",
+  "precio": "130"
+},{
+  "_id": {
+    "$oid": "643bbc2de4b6a9c3db137990"
+  },
+  "idproveidor": "3",
+  "marca": "Lacoste",
+  "graduacion": "0.5",
+  "montura": "Pasta",
+  "colormontura": "Negro",
+  "colorvidrio": "Oscuros",
+  "precio": "100"
+},{
+  "_id": {
+    "$oid": "643bbc2de4b6a9c3db137991"
+  },
+  "idproveidor": "4",
+  "marca": "Olive",
+  "graduacion": "0.2",
+  "montura": "Metalica",
+  "colormontura": "Azul",
+  "colorvidrio": "Oscuros",
+  "precio": "150"
+}]

@@ -1,0 +1,33 @@
+use('Lista')
+db.Restaurants.find({ })
+db.Restaurants.find({restaurant_id: { $gt : "1"}},{restaurant_id:1,name:1,borough:1,cuisine: 1})
+db.Restaurants.find({restaurant_id: { $gt : "1"}},{restaurant_id:1,name:1,borough:1,cuisine:1,_id:0})
+db.Restaurants.find({restaurant_id: { $gt : "1"}},{"address.zipcode.$":1,restaurant_id:1,name:1,borough:1,_id:0})
+db.Restaurants.find({borough:"Bronx" })
+db.Restaurants.find({borough:"Bronx" }).limit(5)
+db.Restaurants.find({borough:"Bronx" }).skip(5).limit(5)
+db.Restaurants.find({'grades.score': {$gte: 90}},{ "grades.score.$": 1 })
+db.Restaurants.find({'grades.score':{$gte: 80,$lt: 100}})
+db.Restaurants.find({'address.coord':{$lt: 95.754168}},{ "address.coord.$": 1 })
+db.Restaurants.find({$and:[{cuisine:{$ne: 'American '} },{"address.coord.0":{$lt: 65.754168}},{'grades.score': {$gte: 70}}]})
+
+db.Restaurants.find({$and:[{cuisine:{$ne: 'American '} },{borough:{$ne: "Brooklyn"} },{'grades.grade':"A"}]}).sort({cuisine:-1});
+db.Restaurants.find({name:/^Wil/},{restaurant_id:1,name:1,borough:1,cuisine: 1})
+db.Restaurants.find({name:/ces$/},{restaurant_id:1,name:1,borough:1,cuisine: 1})
+db.Restaurants.find({name:/Reg/},{restaurant_id:1,name:1,borough:1,cuisine: 1})
+db.Restaurants.find({borough:"Bronx",$or:[{cuisine:"Chinese"},{cuisine:"American "}]})
+db.Restaurants.find({$or:[{borough:"Staten Island"},{borough:"Queens"},{borough:"Bronx"},{borough:"Brooklyn"}]},{restaurant_id:1,name:1,borough:1,cuisine: 1})
+db.Restaurants.find({$or:[{borough:{$ne:"Staten Island"}},{borough:{$ne:"Queens"}},{borough:{$ne:"Bronx"}},{borough:"Brooklyn"}]},{restaurant_id:1,name:1,borough:1,cuisine: 1})
+db.Restaurants.find({'grades.score':{$lte: 10}},{restaurant_id:1,name:1,borough:1,cuisine: 1})
+db.Restaurants.find({cuisine:"Seafood"},{restaurant_id:1,name:1,borough:1,cuisine: 1})
+db.Restaurants.find({$and:[{'grades.grade':"A"},{'grades.score':11},{'grades.date': ISODate('2014-08-11T00:00:00Z')}]},{restaurant_id:1,name:1,grades:1})
+db.Restaurants.find({$and:[{"grades.grade":"A"},{'grades.score':9},{'grades.date': ISODate('2014-08-11T00:00:00Z')}]},{restaurant_id:1,name:1,grades:1,address:1})
+db.Restaurants.find(({"address.coord.1":{$gte:42, $lte: 52}}),{restaurant_id:1,name:1,address:1,coord:1})
+db.Restaurants.find().sort({name:1});
+db.Restaurants.find().sort({name:-1});
+db.Restaurants.find().sort({cuisine:1}).sort({borough:-1})
+db.Restaurants.find({street:{$ne: " "}}).count();
+db.Restaurants.find({"address.coord": {$type: "double"}})
+db.Restaurants.find( { "grades.score": { $mod: [ 7,0 ] } },{restaurant_id:1,name:1,grades:1})
+db.Restaurants.find({name:/mon/},{name:1,borough:1,coord:1,cuisine:1})
+db.Restaurants.find({name:/^Mad/},{name:1,borough:1,coord:1,cuisine:1})
